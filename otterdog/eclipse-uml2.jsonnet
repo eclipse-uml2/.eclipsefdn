@@ -6,7 +6,6 @@ orgs.newOrg('eclipse-uml2') {
     dependabot_security_updates_enabled_for_new_repositories: false,
     description: "Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform.",
     name: "Eclipse MDT UML2",
-    readers_can_create_discussions: true,
     web_commit_signoff_required: false,
   },
   webhooks+: [
