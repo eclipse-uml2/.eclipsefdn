@@ -32,6 +32,7 @@ orgs.newOrg('modeling.mdt.uml2', 'eclipse-uml2') {
       default_branch: "master",
       delete_branch_on_merge: false,
       description: "An EMF-based implementation of the UML 2.x metamodel for the Eclipse platform.",
+      has_discussions: true,
       homepage: "",
       web_commit_signoff_required: false,
       workflows+: {
