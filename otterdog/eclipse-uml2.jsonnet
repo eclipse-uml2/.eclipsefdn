@@ -1,8 +1,8 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('modeling.mdt.uml2', 'eclipse-uml2') {
+orgs.newOrg('modeling.uml2', 'eclipse-uml2') {
   settings+: {
-    blog: "https://projects.eclipse.org/projects/modeling.mdt.uml2",
+    blog: "https://projects.eclipse.org/projects/modeling.uml2",
     description: "Eclipse UML2 is an EMF-based implementation of the UMLTM 2.x metamodel for the Eclipse platform.",
     name: "Eclipse MDT UML2",
     web_commit_signoff_required: false,
